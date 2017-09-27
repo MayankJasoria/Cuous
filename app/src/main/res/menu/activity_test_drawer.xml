@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title = "Contact"
+        android:checkableBehavior="single">
+
+        <menu>
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/submit_news"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Submit News" />
+            <item
+                android:id="@+id/careers"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Careers" />
+            <item
+                android:id="@+id/advertise"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Advertise" />
+        </menu>
+
+    </item>
+
+    <item android:title="Legal">
+        <menu>
+            <item
+                android:id="@+id/terms_of_service"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Terms of sevice" />
+            <item
+                android:id="@+id/privacy_policy"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Privacy policy" />
+        </menu>
+    </item>
+
+    <item android:title="Feedback"
+        android:id="@+id/feedback"/>
+
+    <item android:title="Rate us"
+        android:id="@+id/rate_us"/>
+
+</menu>
